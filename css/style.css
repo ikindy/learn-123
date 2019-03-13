@@ -1,0 +1,52 @@
+h1, h2{ color:blue; font-size: 30px;
+text-align: center
+}
+di{background-color: teal; width: 500px; height: 400px;margin: 30px; padding: 20px;font-family: cursive, sans-serif; font-size: 29px; border: 2px solid blue;}
+th, td{ border: 1px solid black;
+padding: 5px;
+}
+table{border: 2px solid black; border-collapse: collapse; width: 50%; text-align: center}
+th{background-color: pink}
+.name{ color: brown
+}
+#top{color: red}
+h3{ text-align-last: left}
+p1{ padding: 30px}
+input[type=text] {background-color: indianred}
+input[type=password] {background-color: pink}
+button:hover{ background-color: aqua}
+button{ background-color: black; color: azure}
+a::before{
+    content: "\21d2 click here: ";
+    font-weight: bold;
+}
+p::selection { color: red;
+    background-color: yellow
+}
+@media print{
+    .screen-only {
+        display: none;
+    }
+}
+@media (min-width:500px){
+
+    p{background-color: fuchsia
+        
+        
+    }
+}
+@media( max-width:499px){
+    p{
+        background-color: chartreuse
+    }
+}
+@media(min-width:500px){
+    p::before{
+        content:"welcome to kindheart and you"
+    }
+}
+@media(max-width:499px){
+    p::before {
+        content:"welcome!"
+    }
+}
